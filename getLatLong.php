@@ -32,5 +32,5 @@ function getLatLong($address){
  */
 $address = 'White House, Pennsylvania Avenue Northwest, Washington, DC, United States';
 $latLong = getLatLong($address);
-$latitude = $latLong['latitude']?$latLong['latitude']:'Not found';
-$longitude = $latLong['longitude']?$latLong['longitude']:'Not found';
+$latitude = $latLong?$latLong['latitude']:'Not found';
+$longitude = $latLong?$latLong['longitude']:'Not found';
